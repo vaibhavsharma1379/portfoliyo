@@ -15,7 +15,7 @@ export const Heroimg = () => {
             <h1>Software Developer</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <Link to="/contact" className="btn-light">Contacts</Link>
+                <Link to="/contact" className="btn btn-light">Contacts</Link>
 
             </div>
         </div>
