@@ -25,8 +25,8 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
-h1:hover{
-    color: gray;
+.portfolio:hover{
+    color:#35e888;
 }
 @media screen and (max-width:1040px) {
     .nav-menu{
@@ -56,7 +56,7 @@ h1:hover{
         
     }
     .nav-menu li a:hover{
-        color: gray;
+        color: #35e888;
     }
     .hamburger{
         display: initial;
