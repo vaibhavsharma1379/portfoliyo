@@ -3,7 +3,7 @@ import {FaBars, FaTimes} from "react-icons/fa"
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import { hover } from "@testing-library/user-event/dist/hover"
-
+import resume from "../assets/img/icons/resume.pdf"
 const Navbar = () => {
     const [click,setclick]=useState(false);
     const handleClick=()=>setclick(!click);
@@ -35,6 +35,9 @@ const Navbar = () => {
         </li>
         <li>
             <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+         <div class="fadedown-enter-done"><a class="resume-button" href={resume} target="_blank" rel="noopener noreferrer">Resume</a></div>
         </li>
        </ul>
        <div className="hamburger" onClick={handleClick}>

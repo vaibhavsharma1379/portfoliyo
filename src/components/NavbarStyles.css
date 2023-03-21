@@ -28,6 +28,18 @@
 .portfolio:hover{
     color:#35e888;
 }
+.resume-button {
+    /* color: var(--green); */
+    background-color: transparent;
+    border: 1px solid #35e888;
+    border-radius:5px;
+    padding: 0.75rem 1rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: var(--fz-xs);
+}
 @media screen and (max-width:1040px) {
     .nav-menu{
         flex-direction: column;

@@ -6,13 +6,14 @@ const ProjectCardData=[
     {
         imgsrc:project1,
         title:"Flash Chat App",
-        text:"In this project I built an app for chatting. I used firebase for database and authentication. In this projectwe can chat with our friends in a group. I used firebase authentication for authenticate user in the app. I have Used Flutter Frame work and andriod Studio to build this app.",
+        text:"Developed a group chatting app using Flutter, Android Studio and Firebase. Implemented Firebase for database and authentication functionality. Successfully enabled users to chat with friends in a group setting through the use of Firebase authentication",
         source:"https://github.com/vaibhavsharma1379/flash_chat_app_with_Flutter"
     },
     {
         imgsrc:project2,
         title:"Weather App",
-        text:"In this project one can generate health report by ones age weight, height, this app also suggests weather he/she Should do exercise or not according to health report. I have Used Flutter Frame work and andriod Studio to build this app.",
+        text:"i developed a weather app that displays the current and forecasted weather conditions for any city in the world. I used Flutter, a cross-platform framework based on Dart, to create a user-friendly and responsive interface. I used Android Studio as the IDE and integrated an weather API to fetch live data from a reliable weather source. The app allows users to search for cities by name and view various weather parameters, such as temperature and precipitation. The app also updates the background image according to the weather condition of the selected city",
+
         source:"https://github.com/vaibhavsharma1379/weatherApp"
     },
     {
