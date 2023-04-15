@@ -12,10 +12,11 @@ h5{
     font-size: 26px;
 }
 .About-container{
+
   background: #1a1919;
   max-width: 1240px;
   margin: auto;
-  padding: 2rem;
+  padding-top: 20px;
 }
 .about-content{
   /* width: auto;
@@ -29,7 +30,7 @@ h5{
   margin-top: 2.4rem;
   margin-bottom: 2.4rem; */
   
-  
+  margin:20px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 40px;
@@ -98,14 +99,10 @@ margin-top: 15px;
   }
     .about-content{
         grid-template-columns:1fr;
-        margin-left: 8%;
-        margin-right: 8%;
+       margin: auto;
         max-width: 90%;
     }
-    .About-container{
-      margin-left: 10%;
-        margin-right: 10%;
-    }
+    
     
    .content .row{
       grid-template-columns: 1fr;
